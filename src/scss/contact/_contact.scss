@@ -1,3 +1,28 @@
-body {
-    background: red;
+.contato {
+	&__form {
+		width: 30vw;
+		margin: 4rem 0;
+		input,
+		textarea {
+			width: 100%;
+			background: none;
+			border-top: unset;
+			border-left: unset;
+			border-right: unset;
+			border-bottom: solid 2px #fff;
+			padding: 1rem;
+			color: #fff;
+		}
+		input[type=submit] {
+			color: #fff;
+			border: solid 2px #fff;
+			width: 150px;
+			border-radius: 2rem;
+			font-weight: bold;
+			font-size: 1rem;
+			cursor: pointer;
+			display: table;
+			margin: 2rem auto 0 auto;
+		}
+	}
 }

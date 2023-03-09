@@ -1,0 +1,12 @@
+body {
+    @extend %bg-gradient;
+    width: 100vw;
+    height: 100vh;
+    font-family: $font-family-sans-serif;
+    color: #fff;
+}
+
+.container {
+    width: 80vw;
+    margin: 0 auto;
+}

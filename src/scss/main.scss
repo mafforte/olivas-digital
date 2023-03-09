@@ -1,7 +1,10 @@
-@import './components/_components.scss';
+@import './components/index.scss';
 
 @import './archive/_archive.scss';
 @import './contact/_contact.scss';
 @import './home/_home.scss';
+@import './placeholders/_background.scss';
 
 @import '_variables.scss';
+@import '_reset.scss';
+@import '_global.scss';

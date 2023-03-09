@@ -1,3 +1,18 @@
-body {
-    color: blue
+.home {
+	padding-top: 4rem;
+
+	&__projects-grid {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		gap: 3rem;
+
+		@media screen and (max-width: 1000px) {
+			grid-template-columns: 1fr;
+		}
+	}
+
+	&__projects-preview {
+		padding: 4rem 0;
+	}
+
 }

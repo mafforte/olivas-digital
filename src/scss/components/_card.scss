@@ -1,0 +1,38 @@
+.c-project-preview{
+	&__card {
+		display: grid;
+		grid-auto-flow: row;
+		gap: 2rem;
+		background: rgba(255, 255, 255, 0.2);
+	    backdrop-filter: blur(5px);
+	    max-width: 400px;
+	    border-radius: 20px;
+	    padding: 2rem;
+
+	    h4 {
+	    	color: #ffc704;
+	    }
+	}
+
+	&__content {
+		font-size: 0.8rem;
+		max-height: 3.2rem;
+		overflow-y: hidden;
+	}
+
+	&__category {
+		display: flex;
+		justify-content: space-between;
+
+		span {
+			color: #ffc704;
+			font-weight: bold;
+		}
+
+		i {
+			font-size: 1.5rem;
+			color: #ffc704;
+			text-shadow: 0 0 20px #ffc704, 0 0 1px #ffc704, 0 0 1px #ffc704;
+		}
+	}
+}

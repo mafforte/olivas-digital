@@ -1,0 +1,24 @@
+.header {
+	display: flex;
+	justify-content: space-between;
+	padding: 4rem 0;
+
+	a {
+		color: #fff;
+	}
+
+	&__menu {
+		ul {
+			display: flex;
+			gap: 2rem
+		}
+		a {
+			transition: all .1s;
+			
+			&:hover {
+				color: #ffc704;
+				text-shadow: 0 0 10px #ffc704, 0 0 1px #ffc704, 0 0 1px #ffc704;
+			}
+		}
+	}
+}

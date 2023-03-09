@@ -1,0 +1,16 @@
+.button {
+	&__primary a {
+		color: #ffc704;
+		display: table;
+		max-width: 150px;
+
+		i {
+			color: #ffc704;
+			transition: all 0.3s;
+		}
+
+		&:hover i {
+			margin-left: 0.5rem;
+		}
+	}
+}

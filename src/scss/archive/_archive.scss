@@ -1,0 +1,26 @@
+.projetos {
+	padding: 2rem 0;
+	
+	&__grid {
+		margin-top: 4rem;
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		gap: 2rem;
+
+		@media screen and (max-width: 1000px) {
+			grid-template-columns: 1fr;
+		}
+	}
+
+	&__filter {
+		margin-top: 4rem;
+		
+	}
+
+	&__filter-grid {
+		display: flex;
+		flex-direction: column;
+		gap: 1rem;
+		justify-items: start;
+	}
+}
